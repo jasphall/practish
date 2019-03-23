@@ -1,5 +1,6 @@
 package pl.practish
 
+import android.content.Context
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
 
@@ -18,7 +19,7 @@ class ExampleInstrumentedTest {
 
     @Test
     fun useAppContext() {
-        val appContext = ApplicationProvider.getApplicationContext<MainActivity>()
+        val appContext = ApplicationProvider.getApplicationContext<Context>()
         assertEquals("pl.practish", appContext.packageName)
     }
 
