@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Practish</string>
     <string name="app_slogan">Boost your English!</string>
+    <string name="ok_button">Ok</string>
 </resources>
